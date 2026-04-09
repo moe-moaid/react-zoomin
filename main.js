@@ -1,3 +1,7 @@
+function handleClick() {
+  alert("tt");
+}
+
 function MyApp() {
   return (
     <div>
@@ -8,5 +12,5 @@ function MyApp() {
 }
 
 function Button() {
-  return <button>click me</button>;
+  return <button onClick={handleClick}>click me</button>;
 }
